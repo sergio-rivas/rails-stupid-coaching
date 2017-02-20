@@ -1,0 +1,21 @@
+<div class="container padded text-center">
+  <div class="row">
+    <div class="col-xs-12">
+      <form action="/answer" method="post">
+        <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+          <div>
+            <h2>
+              Speak to your coach!
+            </h2><br>
+            <input type="text" id="question" name="quest" placeholder="what time is it?" style="border-radius: 4px; border: 1px solid grey; padding: 3px 0px 3px 5px; width: 250px;">
+          </div>
+        <br>
+      <button type="submit"  class="btn btn-primary">Go on!</button>
+</form>
+    </div>
+  </div>
+</div>
+
+
+
+
